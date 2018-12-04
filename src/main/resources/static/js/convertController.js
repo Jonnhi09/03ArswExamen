@@ -1,5 +1,6 @@
 function showConvertion(data) {
     var result = document.getElementById("result");
+    result.innerHTML = " ";
     var msj = "";
     for (var d in data) {
         msj += d + " " + data[d] + ", ";
